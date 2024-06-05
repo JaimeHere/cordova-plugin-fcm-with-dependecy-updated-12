@@ -14,7 +14,7 @@ var asDisposableListener = function (eventTarget, eventName, callback, options) 
     var handler = function (event) { return callback(event.detail); };
     eventTarget.addEventListener(eventName, handler, { passive: true, once: once });
     return {
-        dispose: function () { return eventTarget.removeEventListener(eventName, handler); }
+        dispose: function () { return eventTarget.removeEventListener(eventName, handler); },
     };
 };
 

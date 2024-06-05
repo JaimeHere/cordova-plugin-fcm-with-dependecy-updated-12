@@ -1,6 +1,9 @@
 # Changelog
 
 ## Version 7
+### Version 7.8.5 (03/05/2023)
+- Updated FCM versions to work with Android 12.
+
 ### Version 7.8.4 (03/05/2023)
 - Commented deleteIDWithHandler method for pod Firebase:10.16. If you need this feature use 7.8.3
 ### Version 7.8.3 (01/12/2022)

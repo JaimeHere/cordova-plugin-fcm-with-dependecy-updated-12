@@ -20,6 +20,6 @@ export const asDisposableListener = <R>(
     eventTarget.addEventListener(eventName, handler, { passive: true, once })
 
     return {
-        dispose: () => eventTarget.removeEventListener(eventName, handler)
+        dispose: () => eventTarget.removeEventListener(eventName, handler),
     }
 }
