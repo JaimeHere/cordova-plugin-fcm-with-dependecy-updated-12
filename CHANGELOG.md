@@ -1,6 +1,9 @@
 # Changelog
 
 ## Version 7
+### Version 7.8.6 (03/05/2023)
+- FCMPlugin.java removed deprecated FirebaseInstanceId
+
 ### Version 7.8.5 (03/05/2023)
 - Updated FCM versions to work with Android 12.
 
